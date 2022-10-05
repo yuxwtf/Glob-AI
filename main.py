@@ -112,7 +112,7 @@ if __name__ == "__main__":
     pyload.Loading.simple(2, "Learning Simple Datas", textcolor=pyload.COLORS.red,background_color=pyload.COLORS.white)
     BaseMemory.simplelearn()
     Actions.speak('Finished Learning Basic Datas')
-    tm = input('Train Mode? (Yes/No)')
+    tm = input('Train Mode? (Yes/No) ')
     if tm.lower().replace(' ', '') == "yes":
         Glob.trainmode()
     else:
